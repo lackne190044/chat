@@ -1,0 +1,3 @@
+write json only when there are changes
+create chat
+create message

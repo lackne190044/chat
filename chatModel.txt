@@ -1,3 +1,19 @@
 structure:
     ./participents.json
       messages.json
+
+participents
+[
+  { user }
+]
+
+message
+[
+  {
+    id
+    user
+    date
+    message
+  }
+]
+      
