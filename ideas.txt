@@ -1,0 +1,3 @@
+A program that connect software development and databases in form of a json file.
+chat? With multiple users, user hash functions to use passwords.
+Be able to have chats between two people and have chatgroups, those are saved in jsons and the jsons changes to the jsons are transfered.
