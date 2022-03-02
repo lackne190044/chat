@@ -1,0 +1,20 @@
+{
+   "name": "testGroup",
+   "owner": "testUser",
+   "usernames": [
+      "Philipp"
+   ],
+   "admins": [],
+   "messages": [
+      {
+         "date": "2022-03-02 09:03:44.906187",
+         "user": "testUser",
+         "text": "Hello Philipp"
+      },
+      {
+         "date": "2022-03-02 09:03:44.906187",
+         "user": "Philipp",
+         "text": "Hello there, how are you doing?"
+      }
+   ]
+}
