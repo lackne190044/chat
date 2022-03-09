@@ -1,32 +1,31 @@
-import json
-from re import A
-from Classes.User import User
-from Classes.Group import Group
-from Classes.Message import Message
 from CommandHandlers.GroupCommandHandler import GroupCommandHandler as GCH
-from time import sleep
+from Classes.User import User
+from gui.gui import GUI
+import os
+from os import listdir
+from os.path import isfile, join
 
-test_user = User('testUser')
-another_user = User('Philipp')
-test_group = Group('testGroup', test_user)
+user = User('Philipp')
 
-test_message = Message(test_user, "Hello Philipp")
-sleep(0.5)
-another_message = Message(another_user, "Hello there, how are you doing?")
+groupPath = os.path.join(os.getcwd(), 'Groups')
 
-test_gch = GCH(test_group, test_user)
-test_gch.add_user(another_user)
-test_gch.add_message(test_message)
-test_gch.add_message(another_message)
-test_group = test_gch.get_group()
-del test_gch
+handler = GCH(commandingUser=user)
 
-another_gch = GCH(test_group, another_user)
-another_gch.add_message(another_message)
-test_group = another_gch.get_group()
-del another_gch
+handler.load('testGroup.json')
 
-data = test_group.json
+gui = GUI()
+row = gui.create_row('left')
 
-with open(f'{test_group._name}.json', 'w') as file:
-    json.dump(data, file, indent=3)
+lBox = gui.create_listbox('left', row, 'single')
+
+onlyfiles = [f for f in listdir(groupPath) if isfile(join(groupPath, f))]
+
+lBox.insert(0, handler._group._name)
+
+def callback(lBox):
+    for i in lBox.curselection():
+        print(lBox.get(i))
+
+lBox.bind('<<ListboxSelect>>', lambda event: callback(lBox))
+
+gui.window.mainloop()

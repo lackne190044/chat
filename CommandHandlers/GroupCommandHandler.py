@@ -10,9 +10,6 @@ class GroupCommandHandler:
         self._group = group
         if self._commanding_user is not None and self._group is not None:
             if commandingUser._username not in self._group._usernames and commandingUser._username is not self._group._owner:
-                print(commandingUser._username)  
-                for i in self._group._usernames:
-                    print(i)
                 raise CustomError('Commanding User not in group')
 
     @property
