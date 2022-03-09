@@ -16,8 +16,8 @@ class Group:
             if i == message:
                 del i
 
-    def addUser(self, user):
-        self._usernames.append(user._username)
+    def addUser(self, username):
+        self._usernames.append(username)
 
     def removeUser(self, username):
         for i in self._usernames:
