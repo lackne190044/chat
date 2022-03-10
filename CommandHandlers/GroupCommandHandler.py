@@ -3,6 +3,7 @@ from Classes.User import User
 from Classes.Message import Message
 from Classes.CustomError import CustomError
 import json
+import os
 
 class GroupCommandHandler:
     def __init__(self, group: Group = None, commandingUser: User = None):
@@ -71,11 +72,15 @@ class GroupCommandHandler:
         self._group.addMessage(message)
 
     def load(self, file):
-        with open(file, 'r') as _file:
+        self.__init__(commandingUser=self._commanding_user)
+        current_dir = os.getcwd()
+        file_path = os.path.join(current_dir, 'Groups', file)
+
+        with open(file_path, 'r') as _file:
             _data = json.load(_file)
             _group = Group(_data['name'], User(_data['owner']))
             for i in _data['usernames']:
-                _group.addUser(User(i))
+                _group.addUser(i)
             for i in _data['admins']:
                 _group.addAdmin(User(i))
             for i in _data['messages']:

@@ -1,4 +1,4 @@
-This is my diart for my chat project.
+This is my diary for my chat project.
 
 ### 02.03.2022
 #### 07:50 - 09:30
@@ -12,3 +12,9 @@ Started with a gui.
 #### 07:50 - 09:30
 
 Adding a Listbox to the gui for future selection of the chat.
+
+### 10.03.2022
+#### 14:55 - 17:35
+
+Wasting an hour on a problem that didn't exist.
+When u login with an user, you will see all groups the user belongs to.

@@ -1,8 +1,8 @@
 from datetime import datetime
 
 class Message:
-    def __init__(self, user, text, date = datetime.now()):
-        self._username = user._username 
+    def __init__(self, username, text, date = datetime.now()):
+        self._username = username 
         self._text = text
         self._date = date
 
