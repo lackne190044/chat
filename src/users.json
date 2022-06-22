@@ -1,0 +1,22 @@
+[
+   {
+      "username": "user1",
+      "password": "$2b$12$bW2iVffBDgn7zhTsb7k0TOEaWqI4/ICMEe2jU2ekx8FeTLa1T6hae"
+   },
+   {
+      "username": "user2",
+      "password": "$2b$12$AwExa6s8IdvWYULyi6Bc3OF0bpP7FtMSkedcqPjhzc2Z67ElQzTPa"
+   },
+   {
+      "username": "user3",
+      "password": "$2b$12$LALhpP/YI8N7sFWoKitZRuLFrMqq2Ulykhb/EFEO2iZkHTYewZA4K"
+   },
+   {
+      "username": "tmp",
+      "password": "$2b$12$CDPJlnDfnHnmEdbGVAeq.e1hN1vrwfx3a8EwDPl9J5KrIl5vrxfoO"
+   },
+   {
+      "username": "tmp2",
+      "password": "$2b$12$F6rcDQA7nElVgNMhXnwBbecR2Ud9dwIhN4xPNRqbrLyJB.h0xL/1K"
+   }
+]

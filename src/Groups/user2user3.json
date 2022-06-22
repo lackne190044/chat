@@ -1,0 +1,20 @@
+{
+   "name": "user2user3",
+   "owner": "user2",
+   "usernames": [
+      "user3"
+   ],
+   "admins": [],
+   "messages": [
+      {
+         "date": "2022-06-21 14:44:13.206601",
+         "user": "user2",
+         "text": "Hello there."
+      },
+      {
+         "date": "2022-06-21 14:44:13.206601",
+         "user": "user3",
+         "text": "Hello there too."
+      }
+   ]
+}

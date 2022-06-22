@@ -1,0 +1,70 @@
+{
+   "name": "user1user2",
+   "owner": "user1",
+   "usernames": [
+      "user2"
+   ],
+   "admins": [],
+   "messages": [
+      {
+         "date": "2022-06-21 14:44:13.206601",
+         "user": "user1",
+         "text": "Hello there."
+      },
+      {
+         "date": "2022-06-21 14:44:13.206601",
+         "user": "user2",
+         "text": "Hello there too."
+      },
+      {
+         "date": "2022-06-21 14:44:13.837854",
+         "user": "user1",
+         "text": "wasd"
+      },
+      {
+         "date": "2022-06-21 14:44:13.837854",
+         "user": "user1",
+         "text": "hello there"
+      },
+      {
+         "date": "2022-06-21 14:44:13.837854",
+         "user": "user1",
+         "text": "what the fuck u doin"
+      },
+      {
+         "date": "2022-06-21 14:44:13.837854",
+         "user": "user1",
+         "text": "what the fuck u doin"
+      },
+      {
+         "date": "2022-06-21 14:44:13.837854",
+         "user": "user1",
+         "text": "what the fuck u doin"
+      },
+      {
+         "date": "2022-06-21 14:44:13.837854",
+         "user": "user1",
+         "text": "what the fuck u doin"
+      },
+      {
+         "date": "2022-06-21 14:44:13.837854",
+         "user": "user1",
+         "text": "what the fuck u doin"
+      },
+      {
+         "date": "2022-06-21 14:44:13.837854",
+         "user": "user1",
+         "text": "what the fuck u doin"
+      },
+      {
+         "date": "2022-06-22 07:31:40.962213",
+         "user": "user1",
+         "text": "wasd"
+      },
+      {
+         "date": "2022-06-22 07:31:40.962213",
+         "user": "user1",
+         "text": "wasdw"
+      }
+   ]
+}
